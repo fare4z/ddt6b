@@ -13,10 +13,10 @@ $kelas[] = $pelajar;
 
 ?>
 
-<table width="60%">
+<table width="60%" border="1">
     <tr>
-        <td width="30%">Nama : </td>
-        <td width="10%">Jabatan : </td>
+        <th width="30%">Nama  </th>
+        <th width="10%">Jabatan  </th>
     </tr>
 <?php
 foreach ($kelas as $value) {

@@ -59,7 +59,7 @@ foreach ($kelas as $value) {
     $nama = $value['nama'];
     $jabatan = $value['jabatan'];
 
-    echo "Nama : " . $nama . "";
+    echo "Nama  " . $nama . "";
     echo "<br>";
     echo "Jabatan : " . $jabatan . "";
     echo "<br>";
