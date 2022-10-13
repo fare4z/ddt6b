@@ -5,7 +5,7 @@ A company decided to give bonus of 5% to employee if his/her year of service is 
 
 $name = "Fareez";
 $yos = 5; //Year of services
-$salary = 1200;
+$salary = 1500;
 
 if ($yos > 5) {
     $bonus = $salary * 0.05;
