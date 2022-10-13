@@ -11,6 +11,8 @@ $kelas[] = $pelajar;
 $pelajar = ['nama' => 'Aisyah', 'jabatan' => 'JKE'];
 $kelas[] = $pelajar;
 
+$pelajar = ['nama' => 'Fareez', 'jabatan' => 'JKE'];
+$kelas[] = $pelajar;
 ?>
 
 <table width="60%" border="1">
