@@ -66,3 +66,21 @@ foreach ($kelas as $value) {
     echo "--------------";
     echo "<br>";
 }
+
+echo "<h3> Multidimensional Array</h3>";
+
+$myLists['colors'] = array("apple" => "red",
+    "grass" => "green",
+    "sky" => "blue",
+    "night" => "black",
+    "wall" => "white");
+
+$myLists['cars'] = array("BMW" => "M6",
+    "Mercedes" => "E 270 CDI",
+    "Lexus" => "IS 220d",
+    "Mazda" => "6",
+    "Toyota" => "Avanza");
+
+echo "<pre>";
+print_r($myLists);
+echo "</pre>";
