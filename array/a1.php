@@ -84,3 +84,5 @@ $myLists['cars'] = array("BMW" => "M6",
 echo "<pre>";
 print_r($myLists);
 echo "</pre>";
+
+echo $myLists['cars']['Lexus'];
