@@ -11,7 +11,7 @@ $kelas[] = $pelajar;
 $pelajar = ['nama' => 'Aisyah', 'jabatan' => 'JKE'];
 $kelas[] = $pelajar;
 
-$pelajar = ['nama' => 'Fareez', 'jabatan' => 'JKE'];
+$pelajar = ['nama' => 'Fareez', 'jabatan' => 'JTMK'];
 $kelas[] = $pelajar;
 ?>
 
