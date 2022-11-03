@@ -1,4 +1,10 @@
 <?php
+session_start();
+
+if (!$_SESSION['username']) {
+    header('Location:login.php');
+}
+
 include 'function_profile.php';
 
 $full_name = "Muhammad Fareez bin Borhanudin";
@@ -23,6 +29,8 @@ $nric = "020907025233";
 <div class="container">
     <div class="main-body">
         <h2>Profil Saya</h2>
+         <h3>Selamat Datang <?php echo $_SESSION['username']; ?></h3>
+         <a href="logout.php">Log out </a>
           <div class="row gutters-sm">
 
             <div class="col-md-4 mb-3">
@@ -41,6 +49,7 @@ $nric = "020907025233";
               </div>
 
             </div>
+
             <div class="col-md-8">
               <div class="card mb-3">
                 <div class="card-body">
