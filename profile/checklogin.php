@@ -1,13 +1,19 @@
 <?php
+
+include 'conn.php';
+
 session_start();
 
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-if ($username == "admin" && $password == "abc123") {
+$sql = "SELECT * FROM tbl_login where username = '$username' and password='$password'";
 
+$result = mysqli_query($conn, $sql);
+if (mysqli_num_rows($result) > 0) {
     $_SESSION['username'] = $username;
     header('Location:profile.php');
 } else {
-    header('Location:login.php');
+    echo "<script>alert('Wrong Password!');</script>";
+    //header('Location:login.php');
 }
